@@ -8,13 +8,13 @@ public class OgrenciKayit {
     private String soyIsim;
     private int yil;
     private String ogrenciNo;
-    private String dersler = "";
-    private int toplamBorc;
+    protected String dersler = "";
+    protected int toplamBorc;
 
     private static int id = 1000;
     static Scanner scan = new Scanner(System.in);
 
-    public String getDersler(String dersler) {
+    public String getDersler() {
         return dersler;
     }
 
@@ -53,7 +53,7 @@ public class OgrenciKayit {
                 ", soyIsim='" + soyIsim + '\'' +
                 ", yil=" + yil +
                 ", ogrenciNo='" + ogrenciNo + '\'' +
-                ", dersler='" + dersler + '\'' +
+                ", dersler='" + getDersler() + '\'' +
                 ", toplamBorc=" + toplamBorc +
                 '}';
     }

@@ -10,5 +10,6 @@ public class OgrenciApp {
         System.out.println(ogr.toString());
 
 
+
     }
 }

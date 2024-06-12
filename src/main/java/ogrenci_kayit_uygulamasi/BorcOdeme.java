@@ -37,5 +37,10 @@ public class BorcOdeme extends DersKayit {
         }
     }
 
+    @Override
+    public String toString(){
+        return super.toString();
+    }
+
 
 }
