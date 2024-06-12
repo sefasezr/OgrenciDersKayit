@@ -78,7 +78,6 @@ public class DersKayit extends OgrenciKayit {
                     break;
                 default:
                     System.out.println("Geçersiz işlem yaptınız");
-                    dersKaydi();
 
             }
         }while(devam);
