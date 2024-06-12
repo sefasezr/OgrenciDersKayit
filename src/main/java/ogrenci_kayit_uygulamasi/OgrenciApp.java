@@ -1,4 +1,4 @@
-package ogrenci_veritabani_uygulamasi;
+package ogrenci_kayit_uygulamasi;
 
 public class OgrenciApp {
     public static void main(String[] args) {

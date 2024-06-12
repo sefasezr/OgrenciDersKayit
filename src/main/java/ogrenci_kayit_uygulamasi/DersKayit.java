@@ -1,4 +1,4 @@
-package ogrenci_veritabani_uygulamasi;
+package ogrenci_kayit_uygulamasi;
 
 import java.util.Scanner;
 
